@@ -1,0 +1,108 @@
+# class Member:
+#     def __init__(self,new_gender,new_major,new_id):
+#         super().__init__(new_gender,new_major,new_id)
+#     def __init__(self, new_gender, new_major, new_id):
+#             self.gender = new_gender
+#             self.major = new_major
+#             self.id = new_id
+#     def get_gender(self):
+#         return self.gender
+#     def set_gender(self,new_gender):
+#         if new_gender == 'M'or new_gender == 'F':
+#             self.gender = new_gender
+#         else:
+#             print('====請傳入"M"或""F====')
+#     def bprrow_resources(self):
+#         print('someone borrow')
+# class student(Member):
+#     def __init__(self,new_gender,new_major,new_id):
+#         self.gender = new_gender
+#         self.major = new_major
+#         self.id = new_id
+#         def bprrow_resources(self):
+#             print('someone borrow')
+#
+#     def get_gender(self):
+#         return self.gender
+#     def set_gender(self,new_gender):
+#         if new_gender == 'M'or new_gender == 'F':
+#             self.gender = new_gender
+#         else:
+#             print('====請傳入"M"或""F====')
+#
+#     def join_class(self):
+#         pass
+#
+#     def quit_class(self):
+#         pass
+#
+#
+# studentA = student("M","工管系",'M10721233')
+#
+#
+# studentA.set_gender('dog')
+#
+# print(studentA.get_gender())
+#
+# class Professor(Member)
+#     def __init__(self,new_gender,new_major,new_id):
+#         super().__init__(new_gender,new_major,new_id)
+#     def bprrow_resources(self):
+#         print('professor borrow')
+#
+#
+# studentA = student('M','工管系''M123445611')
+# studentB = student('B','經濟系','M12345689')
+# professorA = Professor('M','資工系','T0904')
+# professorB = Professor('F','數媒系','G3543')
+#     ls = [studentA,studentB,]
+#     for
+class Pokemon:
+    def __init__(self,new_name,new_whight,new_height,new_food,new_cp):
+        self.name = new_name
+        self.weight = new_whight
+        self.height = new_height
+        self.food = new_food
+        self.cp = new_cp
+    def eat(self):
+        print(f'The pokemon is eating{food}.')
+
+    def make_noice(self):
+        print("The pokemon wow wow wow!")
+    def get_name(self):
+        return self._name
+    def set_name(self,new_name):
+        self.name = new_name
+    def get_weight(self):
+        return  self._weight
+    def set_weight(self,new_weight):
+        self.weight = new_weight
+    def get_height(self):
+        return self._height
+    def set_height(self,new_height):
+        self.height = new_height
+    def get_food(self):
+        return self._food
+    def set_food(self,new_food):
+        self.food = new_food
+    def get_cp(self):
+        return self._cp
+    def set_cp(self,new_cp):
+        self.cp = new_cp
+class Pikachu(Pokemon):
+    def __init__(self,new_name):
+    def eat(self):
+        print("{name}is eating{food}.pika")
+    def make_noice(self):
+        print("{name}pika pika chu!")
+class Squirtle(Pokemon):
+    def eat(self):
+        print("{name} is eating {food}. jenny jenny")
+
+    def make_noice(self):
+        print("{name} jenny jenny!")
+pokemon = Pokemon()
+
+ls = []
+
+
